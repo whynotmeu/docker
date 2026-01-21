@@ -20,8 +20,9 @@
   - Размер контейнера: 2290
   - IP контейнера: 172.17.0.2
   - Замапленные порты: 80/tcp: null
-  - Скриншот: информация о контейнере
+  - Скриншот: вывод команды `docker inspect`
 ![docker inspect](screenshots/docker_inspect.png)
+  - Скриншот: информация о контейнере
 ![docker ports](screenshots/ports_size.png)
 - Пункт 6: docker stop
   - Остановка контейнера
