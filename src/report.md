@@ -3,7 +3,7 @@
 - Пункт 1: docker pull nginx
   - Описание результата
   - Скриншот: скачивание докер-образа nginx
-
+![docker pull nginx](screenshots/docker_pull.png)
 - Пункт 2: docker images
   - Проверка наличия докер-образа
   - Скриншот: список образов
