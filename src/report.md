@@ -65,12 +65,12 @@
   - Команда: `docker cp nginx.conf <container_id>:/etc/nginx/nginx.conf`
   - Скриншот: команда и её вывод
 
-![docker cp](screenshots/4.png)
+  ![docker cp](screenshots/4.png)
 - Пункт 4: Перезапуск nginx внутри контейнера
   - Команда: `docker exec <container_id> nginx -s reload`
   - Скриншот: команда и вывод
 
-![nginx reload](screenshots/5.png)
+  ![nginx reload](screenshots/5.png)
 - Пункт 5: Проверка страницы /status
   - Адрес: `http://localhost:80/status`
   - Скриншот: страница со статусом сервера nginx
@@ -85,7 +85,7 @@
   - Команда: `docker stop <container_id>`
   - Скриншот: остановка контейнера
   
-![docker stop](screenshots/18.png)
+  ![docker stop](screenshots/18.png)
 - Пункт 9: Был создан новый контейнер
   - Команда: `docker run -d -p 80:80 --name mynginx nginx`, где было задано имя контейнеру чтобы было проще работать.
   - Скриншот: команды и ее вывод
@@ -94,33 +94,33 @@
   - Команда: `docker cp nginx.conf mynginx:/etc/nginx/nginx.conf` и `docker exec mynginx nginx -s reload`
   - Скриншот: команды и ее вывод
 
-![docker cp2](screenshots/8.png)
-![nginx reload2](screenshots/9.png)
+  ![docker cp2](screenshots/8.png)
+  ![nginx reload2](screenshots/9.png)
 - Пункт 11: Правильный экспорт Docker-контейнера в файл, а также проверка существует ли файл
   - Команда: `docker export mynginx > container.tar` и `ls -lh container.tar`
   - Скриншот: команды и вывод
 
-![docker export2](screenshots/10.png)
+  ![docker export2](screenshots/10.png)
 - Пункт 12: Остановка Docker-контейнера
   - Команда: `docker stop <container_id>`
   - Скриншот: остановка контейнера
 
-![docker stop2](screenshots/11.png)
+  ![docker stop2](screenshots/11.png)
 - Пункт 13: Удаление образа nginx
   - Команда: `docker rmi -f nginx`, где `-f` означает что надо удалить образ в ЛЮБОМ случае
   - Скриншот: удаление образа
 
-![docker rmi](screenshots/13.png)
+  ![docker rmi](screenshots/13.png)
 - Пункт 14: Удаление контейнера
   - Команда: `docker rm <container_id>`
   - Скриншот: удаление контейнера
 
-![docker rm](screenshots/14.png)
+  ![docker rm](screenshots/14.png)
 - Пункт 15: Импорт контейнера обратно
   - Команда: `docker import container.tar nginx_imported`
   - Скриншот: импорт контейнера
 
-![docker import](screenshots/15.png)
+  ![docker import](screenshots/15.png)
 - Пункт 16: Запуск импортированного контейнера
   - Команда: `docker run -d -p 80:80 nginx_imported nginx -g "daemon off;"`, где `nginx -g "daemon off;"`- говорит контейнеру запустить nginx в фоне и не выходить
   - Скриншот: запуск контейнера
