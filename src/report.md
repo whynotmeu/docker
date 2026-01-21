@@ -36,7 +36,7 @@
 - Пункт 8: docker run с портами
   - Проброс портов 80 и 443, использована команда `docker run -d -p 80:80 -p 443:443 nginx`
   - Скриншот: ввод команды `docker run`
-![docker run ports](screenshots/docker_run.png)
+![docker run ports](screenshots/docker_run2.png)
 - Пункт 9: Проверка nginx в браузере
   - Адрес: http://localhost:80
   - Скриншот: стартовая страница nginx
