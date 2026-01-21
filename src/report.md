@@ -30,11 +30,11 @@
 ![docker stop](screenshots/docker_stop.png)
 - Пункт 7: docker ps
   - Проверка остановки
-  - Скриншот
+  - Скриншот: ввод команды `docker ps`
 ![docker ps stopped](screenshots/docker_ps2.png)
 - Пункт 8: docker run с портами
   - Проброс портов 80 и 443, использована команда `docker run -d -p 80:80 -p 443:443 nginx`
-  - Скриншот: 
+  - Скриншот: ввод команды `docker run`
 ![docker run ports](screenshots/docker_run.png)
 - Пункт 9: Проверка nginx в браузере
   - Адрес: http://localhost:80
@@ -42,9 +42,9 @@
 ![nginx browser](screenshots/nginx.png)
 - Пункт 10: docker restart
   - Перезапуск контейнера
-  - Скриншот
+  - Скриншот: ввод команды `docker restart`
 ![docker restart](screenshots/docker_restart.png)
 - Пункт 11: Проверка запуска любым способом
-  - docker ps
-  - Скриншот
+  - Проверка командой `docker ps`
+  - Скриншот: вывод команды `docker ps`
 ![docker ps after restart](screenshots/docker_ps3.png)
