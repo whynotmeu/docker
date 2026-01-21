@@ -28,7 +28,7 @@
   - Остановка контейнера
   - Скриншот: остановки контейнера
     
-![docker stop](screenshots/docker_stop.png)
+   ![docker stop](screenshots/docker_stop.png)
 - Пункт 7: docker ps
   - Проверка остановки
   - Скриншот: ввод команды `docker ps`
@@ -45,7 +45,7 @@
   - Перезапуск контейнера
   - Скриншот: ввод команды `docker restart`
     
-![docker restart](screenshots/docker_restart.png)
+   ![docker restart](screenshots/docker_restart.png)
 - Пункт 11: Проверка запуска любым способом
   - Проверка командой `docker ps`
   - Скриншот: вывод команды `docker ps`
