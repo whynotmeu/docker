@@ -23,7 +23,9 @@
   - Скриншот: вывод команды `docker inspect`
     ![docker inspect](screenshots/docker_inspect.png)
   - Скриншот: информация о контейнере
-    ![docker ports](screenshots/ports_size.png)
+    ![docker id](screenshots/20.png)
+    ![docker size21](screenshots/21.png)
+    ![docker ports](screenshots/22.png)
 - Пункт 6: docker stop
   - Остановка контейнера
   - Скриншот: остановки контейнера
