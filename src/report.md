@@ -64,7 +64,7 @@
   - Создан файл nginx.conf с настройкой страницы /status
   - Скриншот: содержимое файла nginx.conf
     ![nginx.conf локальный](screenshots/2.png)
-    ![nginx.conf](screenshots/3.png)
+    ![nginx.conf](screenshots/23.png)
 
 - Пункт 3: Копирование nginx.conf в контейнер
   - Команда: `docker cp nginx.conf <container_id>:/etc/nginx/nginx.conf`
