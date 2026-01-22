@@ -17,9 +17,9 @@
   - Скриншот: запущенный контейнер
     ![docker ps](screenshots/docker_ps1.png)
 - Пункт 5: docker inspect
-  - Размер контейнера: 2290
+  - Размер контейнера: 67108864
   - IP контейнера: 172.17.0.2
-  - Замапленные порты: 80/tcp: null
+  - Замапленные порты: 80
   - Скриншот: вывод команды `docker inspect`
     ![docker inspect](screenshots/docker_inspect.png)
   - Скриншот: информация о контейнере
